@@ -1,0 +1,21 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "postgres",
+    "database": "spotify_beats",
+    "host": "127.0.0.1",
+    "port": 5432,
+    "dialect": "postgres",
+    "logging": false
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "use_env_variable": "DATABASE_URL"
+  }
+}
